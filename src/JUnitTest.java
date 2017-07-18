@@ -1,4 +1,3 @@
-package com.junit.mm;
 
 import static org.junit.Assert.*;
 
