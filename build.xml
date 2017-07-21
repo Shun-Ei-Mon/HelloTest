@@ -25,7 +25,7 @@
    </target>
    
 	<target name = "compile" depends = "prepare">
-		<javac srcdir = "${srcdir}" destdir = "${testdir}" 
+		<javac includeantruntime="false" srcdir = "${srcdir}" destdir = "${testdir}" 
 			verbose = "${full-compile}">
 			<classpath refid = "classpath.test"/>
 		</javac>
